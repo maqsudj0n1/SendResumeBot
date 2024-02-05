@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.DynamicLinq" Version="6.2.14" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="QRCoderNetCore" Version="1.0.0" />
+		<PackageReference Include="System.IO.Packaging" Version="4.7.0" />
+		<PackageReference Include="System.Text.Json" Version="6.0.0" />
+		<PackageReference Include="WEBASE.AspNet" Version="2023.1.21.1530" />
+		<PackageReference Include="WEBASE.Integration.EImzo" Version="2023.5.12.1234" />
+		<PackageReference Include="WEBASE.Integration.MSPD.Client" Version="2023.9.29.1859" />
+		<PackageReference Include="WEBASE.Integration.MSPD.Models" Version="2023.10.17.938" />
+		<PackageReference Include="WEBASE.QRCode" Version="2023.6.23.1010" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\SendResumeBot.DataLayer\SendResumeBot.DataLayer.csproj" />
+	</ItemGroup>
+
+</Project>

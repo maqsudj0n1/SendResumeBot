@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="LinqKit.Microsoft.EntityFrameworkCore" Version="6.0.27" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.0" />
+		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.0" />
+		<PackageReference Include="WEBASE.EF" Version="2023.2.18.1748" />
+		<PackageReference Include="WEBASE.Integration.MSPD.Client" Version="2023.9.29.1859" />
+		<PackageReference Include="WEBASE.Integration.MSPD.Models" Version="2023.10.17.938" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\SendResumeBot.Core\SendResumeBot.Core.csproj" />
+	</ItemGroup>
+
+</Project>

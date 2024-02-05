@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DocumentFormat.OpenXml" Version="2.20.0" />
+		<PackageReference Include="itext7.pdfhtml" Version="4.0.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.2" />
+		<PackageReference Include="WEBASE.AspNet" Version="2023.1.21.1530" />
+		<PackageReference Include="WEBASE.Captcha" Version="2023.7.26.1955" />
+		<PackageReference Include="WEBASE.DependencyInjection" Version="2023.2.18.1647" />
+		<PackageReference Include="WEBASE.Integration.MSPD.Client" Version="2023.9.29.1859" />
+		<PackageReference Include="WEBASE.Integration.MSPD.Models" Version="2023.10.17.938" />
+		<PackageReference Include="WEBASE.Minio" Version="2023.1.21.1529" />
+	</ItemGroup>
+
+</Project>
